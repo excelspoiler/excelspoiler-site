@@ -46,7 +46,7 @@ model User {
   firstName     String?
   lastName      String?
   password      String?
-  role          Role      @default(USER)
+  role          String    @default("USER")
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
@@ -69,7 +69,7 @@ model Course {
   title         String
   description   String
   price         Float
-  level         CourseLevel @default(BEGINNER)
+  level         String      @default("BEGINNER")
   durationHours Int
   imageUrl      String?
   vimeoVideoId  String?     // Vimeo video ID
@@ -135,7 +135,7 @@ model Payment {
   amount                 Float
   currency               String        @default("EUR")
   stripePaymentIntentId  String        @unique
-  status                 PaymentStatus @default(PENDING)
+  status                 String        @default("PENDING")
   createdAt              DateTime      @default(now())
   updatedAt              DateTime      @updatedAt
 
@@ -143,20 +143,7 @@ model Payment {
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
 }
 
-enum Role {
-  USER
-  ADMIN
-}
-
-enum CourseLevel {
-  BEGINNER
-  INTERMEDIATE
-  ADVANCED
-}
-
-enum PaymentStatus {
-  PENDING
-  COMPLETED
-  FAILED
-  CANCELLED
-}
+// Note: SQLite doesn't support enums, using String with default values
+// Role: "USER" | "ADMIN"
+// CourseLevel: "BEGINNER" | "INTERMEDIATE" | "ADVANCED"  
+// PaymentStatus: "PENDING" | "COMPLETED" | "FAILED" | "CANCELLED"
