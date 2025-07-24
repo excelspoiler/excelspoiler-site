@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #1A1A1A;
+  --excel-green: #2D8B2D;
+  --excel-green-light: #4CAF50;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.gradient-bg-1 {
+  background: linear-gradient(135deg, #f8fffe 0%, #f0f9f0 100%);
+}
+
+.gradient-bg-2 {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+}
+
+.gradient-bg-3 {
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+}
