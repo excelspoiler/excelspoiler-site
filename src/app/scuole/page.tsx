@@ -410,7 +410,7 @@ export default function PerLeScuole() {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
             Porta Excel nella Tua Scuola
           </h2>
-          <p className="text-xl text-green-100 mb-8">
+          <p className="text-xl text-white mb-8">
             Contattaci per una presentazione gratuita e scopri come possiamo 
             arricchire l'offerta formativa della tua scuola
           </p>

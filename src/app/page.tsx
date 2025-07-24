@@ -183,7 +183,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
             Pronto a Diventare un Excel Master?
           </h2>
-          <p className="text-xl text-green-100 mb-8">
+          <p className="text-xl text-white mb-8">
             Unisciti a migliaia di professionisti che hanno trasformato la loro carriera con Excel Spoiler
           </p>
           <Link

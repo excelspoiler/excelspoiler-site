@@ -310,7 +310,7 @@ export default function PerLeAziende() {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
             Trasforma la Tua Azienda Oggi
           </h2>
-          <p className="text-xl text-green-100 mb-8">
+          <p className="text-xl text-white mb-8">
             Contattaci per una consulenza gratuita e scopri come Excel Spoiler 
             può migliorare l'efficienza del tuo team
           </p>

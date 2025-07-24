@@ -17,9 +17,9 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className="bg-white border-b-2 border-gray-300 sticky top-0 z-50">
+    <nav className="bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
               <Image
@@ -27,7 +27,7 @@ const Navbar = () => {
                 alt="Excel Spoiler"
                 width={150}
                 height={60}
-                className="h-10 w-auto"
+                className="h-16 w-auto"
               />
             </Link>
           </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-excel-green px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  className="text-gray-700 hover:text-excel-green px-4 py-2 text-lg font-light transition-colors duration-200"
                 >
                   {item.name}
                 </Link>
@@ -49,13 +49,13 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <Link
               href="/login"
-              className="text-excel-green hover:text-excel-green-light px-4 py-2 text-sm font-medium"
+              className="text-excel-green hover:text-excel-green-light px-4 py-2 text-lg font-light"
             >
               Accedi
             </Link>
             <Link
               href="/register"
-              className="bg-excel-green hover:bg-excel-green-light text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200"
+              className="bg-excel-green hover:bg-excel-green-light text-white px-6 py-2 rounded-lg text-lg font-light transition-colors duration-200"
             >
               Registrati
             </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-excel-green block px-3 py-2 text-base font-medium"
+                className="text-gray-700 hover:text-excel-green block px-3 py-2 text-lg font-light"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
@@ -94,14 +94,14 @@ const Navbar = () => {
             <div className="border-t pt-4 pb-3">
               <Link
                 href="/login"
-                className="text-excel-green hover:text-excel-green-light block px-3 py-2 text-base font-medium"
+                className="text-excel-green hover:text-excel-green-light block px-3 py-2 text-lg font-light"
                 onClick={() => setIsOpen(false)}
               >
                 Accedi
               </Link>
               <Link
                 href="/register"
-                className="bg-excel-green hover:bg-excel-green-light text-white block mx-3 mt-2 px-4 py-2 rounded-lg text-base font-medium text-center"
+                className="bg-excel-green hover:bg-excel-green-light text-white block mx-3 mt-2 px-4 py-2 rounded-lg text-lg font-light text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Registrati

@@ -263,7 +263,7 @@ export default function MetodoReplay() {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
             Prova il Metodo Replay Oggi
           </h2>
-          <p className="text-xl text-green-100 mb-8">
+          <p className="text-xl text-white mb-8">
             Inizia il tuo percorso verso la maestria di Excel con il nostro metodo rivoluzionario
           </p>
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex justify-center">

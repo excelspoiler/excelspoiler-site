@@ -45,7 +45,7 @@ export default function Dashboard() {
             <h2 className="text-2xl font-semibold mb-2">
               Benvenuto, {session.user?.name || session.user?.email}!
             </h2>
-            <p className="text-green-100">
+            <p className="text-white">
               Sei ora connesso al tuo account Excel Spoiler
             </p>
           </div>
