@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+            <div className="text-center p-6 bg-white rounded-xl border-2 border-gray-300">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -71,7 +71,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+            <div className="text-center p-6 bg-white rounded-xl border-2 border-gray-300">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
@@ -83,7 +83,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+            <div className="text-center p-6 bg-white rounded-xl border-2 border-gray-300">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
@@ -111,7 +111,7 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white rounded-xl border-2 border-gray-300 overflow-hidden hover:border-excel-green transition-colors duration-300">
               <div className="p-6">
                 <div className="w-12 h-12 bg-excel-green rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white font-bold text-xl">E1</span>
@@ -132,7 +132,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white rounded-xl border-2 border-gray-300 overflow-hidden hover:border-excel-green transition-colors duration-300">
               <div className="p-6">
                 <div className="w-12 h-12 bg-excel-green rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white font-bold text-xl">E2</span>
@@ -153,7 +153,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white rounded-xl border-2 border-gray-300 overflow-hidden hover:border-excel-green transition-colors duration-300">
               <div className="p-6">
                 <div className="w-12 h-12 bg-excel-green rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white font-bold text-xl">VBA</span>

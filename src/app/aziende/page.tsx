@@ -26,7 +26,7 @@ export default function PerLeAziende() {
               </div>
             </div>
             <div className="relative">
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
                 <Image
                   src="/logo.png"
                   alt="Formazione Aziendale Excel"
@@ -53,7 +53,7 @@ export default function PerLeAziende() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300 text-center">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -65,7 +65,7 @@ export default function PerLeAziende() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300 text-center">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M12 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zM12 10c-3.309 0-6 2.691-6 6v2h12v-2c0-3.309-2.691-6-6-6z"/>
@@ -77,7 +77,7 @@ export default function PerLeAziende() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300 text-center">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
@@ -105,7 +105,7 @@ export default function PerLeAziende() {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="bg-white rounded-xl border-2 border-gray-300 p-8">
               <h3 className="text-2xl font-heading font-bold text-excel-dark mb-4">
                 Formazione On-Site
               </h3>
@@ -135,7 +135,7 @@ export default function PerLeAziende() {
               <div className="text-2xl font-bold text-excel-green mb-4">Da €500/giorno</div>
             </div>
             
-            <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="bg-white rounded-xl border-2 border-gray-300 p-8">
               <h3 className="text-2xl font-heading font-bold text-excel-dark mb-4">
                 Consulenza & Automazione
               </h3>
@@ -237,7 +237,7 @@ export default function PerLeAziende() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg">
+            <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
               <div className="mb-6">
                 <h3 className="text-xl font-semibold text-excel-dark mb-2">
                   TechCorp S.p.A. - Settore IT
@@ -269,7 +269,7 @@ export default function PerLeAziende() {
               </div>
             </div>
             
-            <div className="bg-white p-8 rounded-xl shadow-lg">
+            <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
               <div className="mb-6">
                 <h3 className="text-xl font-semibold text-excel-dark mb-2">
                   Financial Solutions - Consulenza

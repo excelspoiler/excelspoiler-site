@@ -108,7 +108,7 @@ export default function Contatti() {
               </div>
 
               {/* Quick Contact Options */}
-              <div className="mt-8 p-6 bg-white rounded-xl shadow-sm">
+              <div className="mt-8 p-6 bg-white rounded-xl border-2 border-gray-300">
                 <h3 className="text-lg font-semibold text-excel-dark mb-4">Contatti Specializzati</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
@@ -135,7 +135,7 @@ export default function Contatti() {
             
             {/* Contact Form */}
             <div>
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
                 <h2 className="text-2xl font-heading font-bold text-excel-dark mb-6">
                   Invia un Messaggio
                 </h2>
@@ -252,7 +252,7 @@ export default function Contatti() {
           </div>
           
           <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <h3 className="text-lg font-semibold text-excel-dark mb-3">
                 Quanto tempo ho per completare un corso?
               </h3>
@@ -262,7 +262,7 @@ export default function Contatti() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <h3 className="text-lg font-semibold text-excel-dark mb-3">
                 I corsi includono certificazione?
               </h3>
@@ -272,7 +272,7 @@ export default function Contatti() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <h3 className="text-lg font-semibold text-excel-dark mb-3">
                 Offrite supporto durante il corso?
               </h3>
@@ -282,7 +282,7 @@ export default function Contatti() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <h3 className="text-lg font-semibold text-excel-dark mb-3">
                 Posso richiedere un rimborso?
               </h3>
@@ -292,7 +292,7 @@ export default function Contatti() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <h3 className="text-lg font-semibold text-excel-dark mb-3">
                 I corsi sono compatibili con tutte le versioni di Excel?
               </h3>

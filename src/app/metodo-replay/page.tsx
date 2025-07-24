@@ -75,7 +75,7 @@ export default function MetodoReplay() {
             </div>
             
             <div className="relative">
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
                 <Image
                   src="/logo.png"
                   alt="Metodo Replay"
@@ -102,7 +102,7 @@ export default function MetodoReplay() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
@@ -115,7 +115,7 @@ export default function MetodoReplay() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -128,7 +128,7 @@ export default function MetodoReplay() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M12 6V4a2 2 0 00-2-2H4a2 2 0 00-2 2v7a2 2 0 002 2h6a2 2 0 002-2V6zM6 8a1 1 0 100-2 1 1 0 000 2zm8-4v10l-3-3-3 3V4h6z"/>
@@ -141,7 +141,7 @@ export default function MetodoReplay() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
@@ -154,7 +154,7 @@ export default function MetodoReplay() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
@@ -168,7 +168,7 @@ export default function MetodoReplay() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"/>
@@ -194,7 +194,7 @@ export default function MetodoReplay() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400">
                   {[...Array(5)].map((_, i) => (
@@ -214,7 +214,7 @@ export default function MetodoReplay() {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400">
                   {[...Array(5)].map((_, i) => (
@@ -234,7 +234,7 @@ export default function MetodoReplay() {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400">
                   {[...Array(5)].map((_, i) => (

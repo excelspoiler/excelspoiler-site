@@ -26,7 +26,7 @@ export default function PerLeScuole() {
               </div>
             </div>
             <div className="relative">
-              <div className="bg-white p-8 rounded-xl shadow-lg">
+              <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
                 <Image
                   src="/logo.png"
                   alt="Excel per Scuole"
@@ -53,7 +53,7 @@ export default function PerLeScuole() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300 text-center">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
@@ -65,7 +65,7 @@ export default function PerLeScuole() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300 text-center">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
@@ -77,7 +77,7 @@ export default function PerLeScuole() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm text-center">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300 text-center">
               <div className="w-16 h-16 bg-excel-green-light rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -105,7 +105,7 @@ export default function PerLeScuole() {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div className="bg-white rounded-xl border-2 border-gray-300 overflow-hidden">
               <div className="p-8">
                 <div className="w-12 h-12 bg-excel-green rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white font-bold text-lg">BS</span>
@@ -154,7 +154,7 @@ export default function PerLeScuole() {
               </div>
             </div>
             
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-excel-green">
+            <div className="bg-white rounded-xl border-2 border-gray-300 overflow-hidden border-2 border-excel-green">
               <div className="bg-excel-green text-white text-center py-2 font-semibold">
                 Più Popolare
               </div>
@@ -206,7 +206,7 @@ export default function PerLeScuole() {
               </div>
             </div>
             
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div className="bg-white rounded-xl border-2 border-gray-300 overflow-hidden">
               <div className="p-8">
                 <div className="w-12 h-12 bg-excel-green rounded-lg flex items-center justify-center mb-4">
                   <span className="text-white font-bold text-lg">DOC</span>
@@ -271,7 +271,7 @@ export default function PerLeScuole() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/>
@@ -283,7 +283,7 @@ export default function PerLeScuole() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z"/>
@@ -295,7 +295,7 @@ export default function PerLeScuole() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
@@ -307,7 +307,7 @@ export default function PerLeScuole() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -319,7 +319,7 @@ export default function PerLeScuole() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"/>
@@ -331,7 +331,7 @@ export default function PerLeScuole() {
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl border-2 border-gray-300">
               <div className="w-12 h-12 bg-excel-green-light rounded-lg flex items-center justify-center mb-4">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm3 5a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1zm0 3a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clipRule="evenodd"/>
@@ -356,7 +356,7 @@ export default function PerLeScuole() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg">
+            <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
               <div className="mb-6">
                 <h3 className="text-xl font-semibold text-excel-dark mb-2">
                   Liceo Scientifico "Da Vinci"
@@ -379,7 +379,7 @@ export default function PerLeScuole() {
               </div>
             </div>
             
-            <div className="bg-white p-8 rounded-xl shadow-lg">
+            <div className="bg-white p-8 rounded-xl border-2 border-gray-300">
               <div className="mb-6">
                 <h3 className="text-xl font-semibold text-excel-dark mb-2">
                   Università Bocconi
